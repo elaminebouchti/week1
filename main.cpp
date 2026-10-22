@@ -1,8 +1,8 @@
-#include <iostream>
 #include "greeting.hpp"
 
 
 int main(){
-    greet("Hello from Linux");
+    greet("El Amine");
     return 0;
+    
 }
