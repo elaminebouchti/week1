@@ -1,3 +1,4 @@
 *.o
 *.d
 week1
+build/

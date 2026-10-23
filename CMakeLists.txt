@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.25)
+project(week1 LANGUAGES CXX)
+add_executable(week1 main.cpp greeting.cpp)
+target_compile_features(week1 PRIVATE cxx_std_20)
+target_compile_options(week1 PRIVATE -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Werror)
